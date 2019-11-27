@@ -10,7 +10,7 @@ TopStories app uses local JSON that is read via the Bundle class and parses the 
 1. [Foundation](https://developer.apple.com/documentation/foundation)
 1. [UIKit](https://developer.apple.com/documentation/uikit)
 
-## Apple APIs used
+## Apple APIs and classes used
 
 1. [Bundle](https://developer.apple.com/documentation/foundation/bundle)   
 1. [Data](https://developer.apple.com/documentation/foundation/data)  
@@ -23,4 +23,5 @@ TopStories app uses local JSON that is read via the Bundle class and parses the 
 1. [UITableView](https://developer.apple.com/documentation/uikit/uitableview), [UITableViewDataSource](https://developer.apple.com/documentation/uikit/uitableviewdatasource), [UITableViewDelegate](https://developer.apple.com/documentation/uikit/uitableviewdelegate) 
 1. [UITableViewCell](https://developer.apple.com/documentation/uikit/uitableviewcell)
 1. [UISearchBar](https://developer.apple.com/documentation/uikit/uisearchbar), [UISearchBarDelegate](https://developer.apple.com/documentation/uikit/uisearchbardelegate)
+1. [UIImage](https://developer.apple.com/documentation/uikit/uiimage)
 
