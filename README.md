@@ -19,7 +19,7 @@ TopStories app uses local JSON that is read via the Bundle class and parses the 
 1. URL
 1. URLSession
 1. Result type 
-1. Grand Central Dispatch (GCD) 
+1. Grand Central Dispatch (GCD) specially DisptachQueue
 1. UITableView, UITableViewDataSource, UITableViewDelegate 
 1, UITableViewCell
 1. UISearchBar, UISearchBarDelegate
