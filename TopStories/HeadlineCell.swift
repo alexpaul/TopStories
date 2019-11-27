@@ -28,6 +28,34 @@ class HeadlineCell: UITableViewCell {
   func configureCell(for headline: NewsHeadline) {
     headlineTitleLabel.text = headline.title
     bylineLabel.text = headline.byline
+    
+    // let's get image
+    if let thumbImage = headline.thumbImage {
+      
+      // TODO: memory mangement (ARC) - we need to handle retain cycles here
+      // we can archieve this by using a capture list
+      // e.g [unowned self] or [weak self]....more on this later....more on this later
+      
+      //=========================================================
+      // *******weak vs unowned - big topic at interviews*******
+      //=========================================================
+      
+      ImageClient.fetchImage(for: thumbImage.url) { [unowned self] (result) in
+        switch result {
+        case .success(let image):
+          // UPDATE ANY UI ELEMENTS ON THE MAIN THREAD
+          DispatchQueue.main.async {
+            // UI updates go here
+            self.headlineImageView.image = image
+          }
+          
+        case .failure(let error):
+          print("configureCell image error - \(error)")
+        }
+      }
+      
+    }
+    
   }
 
 }
