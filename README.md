@@ -26,6 +26,6 @@ TopStories app uses local JSON that is read via the Bundle class and parses the 
 1. [UIImage](https://developer.apple.com/documentation/uikit/uiimage)
 
 
-> Apple docs on not using Data(contentsOf:) to fetch urls from a network resource. Highly advises against doing this. In our TopStories app we are using the recommended dataTask method on URLSession. We strive to always adhere by the mothership's rules :rocket:
+> Apple docs on not using Data(contentsOf:) to fetch urls from a network resource. Highly advises against doing this. In our TopStories app we are using the recommended dataTask method on URLSession. We strive to always adhere by the motherships' rules :rocket:
 
 ![dont use Data(contentsOf) for network urls](Assets/dont-use-data-for-network-urls.png)
