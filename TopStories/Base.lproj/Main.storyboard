@@ -109,7 +109,7 @@
                                 <rect key="frame" x="0.0" y="89" width="414" height="311"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Byo-oR-TBw">
-                                <rect key="frame" x="20" y="421.5" width="374" height="419.5"/>
+                                <rect key="frame" x="20" y="421.5" width="374" height="426"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -117,8 +117,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By: Alex Paul" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PtN-Uy-zf1">
-                                <rect key="frame" x="20" y="849" width="99" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="20" y="855.5" width="386" height="14.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -132,6 +132,7 @@
                             <constraint firstItem="Byo-oR-TBw" firstAttribute="leading" secondItem="2i7-G0-J9q" secondAttribute="leading" constant="20" id="MIv-GH-ae2"/>
                             <constraint firstItem="Byo-oR-TBw" firstAttribute="top" secondItem="a6i-XM-8lk" secondAttribute="bottom" constant="20" id="PFB-45-edj"/>
                             <constraint firstItem="PtN-Uy-zf1" firstAttribute="leading" secondItem="2i7-G0-J9q" secondAttribute="leading" constant="20" id="Wyb-FR-HwK"/>
+                            <constraint firstItem="2i7-G0-J9q" firstAttribute="trailing" secondItem="PtN-Uy-zf1" secondAttribute="trailing" constant="8" id="bd8-LS-EMK"/>
                             <constraint firstItem="PtN-Uy-zf1" firstAttribute="bottom" secondItem="2i7-G0-J9q" secondAttribute="bottom" constant="8" id="cIC-b8-j73"/>
                             <constraint firstItem="2i7-G0-J9q" firstAttribute="trailing" secondItem="Byo-oR-TBw" secondAttribute="trailing" constant="20" id="glE-cv-M7i"/>
                             <constraint firstItem="a6i-XM-8lk" firstAttribute="trailing" secondItem="2i7-G0-J9q" secondAttribute="trailing" id="vBJ-5G-4oh"/>
