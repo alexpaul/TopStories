@@ -32,7 +32,7 @@ class HeadlineCell: UITableViewCell {
     // let's get image
     if let thumbImage = headline.thumbImage {
       
-      // TODO: memory mangement (ARC) - we need to handle retain cycles here
+      // memory mangement (ARC) - we need to handle retain cycles here
       // we can archieve this by using a capture list
       // e.g [unowned self] or [weak self]....more on this later....more on this later
       
